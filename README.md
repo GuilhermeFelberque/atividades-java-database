@@ -38,6 +38,12 @@ Abaixo estão listados todos os sistemas desenvolvidos, com links diretos para s
 * **📂 [Acessar arquivos desta atividade](./Sistema_De_Delivery_De_Restaurante_Refatorado_Interacao_Banco_De_Dados)**
 * **📄 [Ver Script SQL desta atividade](./SistemaDeliveryscript.sql)**
 
+### ✈️ 6. Sistema de Passagens Aéreas
+* **O que faz:** Controla o registro de emissão de bilhetes aéreos, armazenando os dados dos passageiros, identificação do voo, classe de assento selecionada e o cálculo financeiro entre o preço original da passagem e o preço final praticado com descontos ou taxas.
+* **Conceitos aplicados:** Cláusula de segurança `IF NOT EXISTS` na criação de tabelas, controle de chaves numéricas sequenciais (`AUTO_INCREMENT`) e uso do tipo numérico de alta precisão `DECIMAL` para transações de valores monetários.
+* **📂 [Acessar arquivos desta atividade](./Sistema_De_Passagens_Aereas_Refatorado_Intercao_Banco_De_Dados)**
+* **📄 [Ver Script SQL desta atividade](./SistemaPassagensscript.sql)**
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas Geral
