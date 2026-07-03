@@ -26,6 +26,12 @@ Abaixo estão listados todos os sistemas desenvolvidos, com links diretos para s
 * **📂 [Acessar arquivos desta atividade](./Sistema_De_Contas_De_UsuarioStreamig_Interacao_Banco_De_Dados)**
 * **📄 [Ver Script SQL desta atividade](./Streamingscript.sql)**
 
+### 📚 4. Sistema de Biblioteca Escolar
+* **O que faz:** Controla o empréstimo de livros por alunos, acompanhando o status de disponibilidade do livro, o total de obras com o estudante e se ele possui multas pendentes.
+* **Conceitos aplicados:** Uso de chaves primárias definidas manualmente (`PRIMARY KEY`), valores padrão para novos registros (`DEFAULT 0` e `DEFAULT 1`) e uso de booleanos via tipo `TINYINT(1)`.
+* **📂 [Acessar arquivos desta atividade](./04_Biblioteca_Escolar)**
+* **📄 [Ver Script SQL desta atividade](./04_Biblioteca_Escolar/biblioteca_escolar.sql)**
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas Geral
