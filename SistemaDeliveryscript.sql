@@ -1,4 +1,4 @@
-CREATE DATABASE sistemadelivery;
+CREATE DATABASE IF NOT EXISTS sistemadelivery;
 
 USE sistemadelivery;
 
