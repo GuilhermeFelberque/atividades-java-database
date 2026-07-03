@@ -2,19 +2,19 @@ CREATE DATABASE sistemadelivery;
 
 USE sistemadelivery;
 
-CREATE TABLE usuarios (
+CREATE TABLE IF NOT EXISTS usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     login VARCHAR(100) NOT NULL,
     senha VARCHAR(100) NOT NULL
 );
 
-CREATE TABLE produtos (
+CREATE TABLE IF NOT EXISTS produtos (
     codigo INT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     preco DECIMAL(10,2) NOT NULL
 );
 
-CREATE TABLE pedidos (
+CREATE TABLE IF NOT EXISTS pedidos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     usuario_login VARCHAR(100) NOT NULL,
     numeroPedido INT NOT NULL,
