@@ -2,7 +2,7 @@ CREATE DATABASE IF NOT EXISTS sistemabibliotecaescolar;
 
 USE sistemabibliotecaescolar;
 
-CREATE TABLE IF NOT EXISTs aluno (
+CREATE TABLE IF NOT EXISTS aluno (
     matricula INT PRIMARY KEY,
     nomeAluno VARCHAR(100),
     possuiMulta INT DEFAULT 0,
