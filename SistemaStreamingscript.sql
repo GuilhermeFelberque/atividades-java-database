@@ -1,15 +1,7 @@
--- ============================================
--- Script de criação do banco de dados
--- contausuario
--- ============================================
-
 CREATE DATABASE IF NOT EXISTS contausuario;
 
 USE contausuario;
 
--- ============================================
--- Tabela de usuários
--- ============================================
 CREATE TABLE IF NOT EXISTS usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(150) NOT NULL,
@@ -17,9 +9,6 @@ CREATE TABLE IF NOT EXISTS usuarios (
     UNIQUE KEY (email)
 );
 
--- ============================================
--- Tabela de planos
--- ============================================
 CREATE TABLE IF NOT EXISTS planos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     tipoPlano VARCHAR(50) NOT NULL,
@@ -27,9 +16,6 @@ CREATE TABLE IF NOT EXISTS planos (
     UNIQUE KEY (tipoPlano)
 );
 
--- ============================================
--- Tabela de assinaturas
--- ============================================
 CREATE TABLE IF NOT EXISTS assinaturas (
     id INT AUTO_INCREMENT PRIMARY KEY,
     usuarios_id INT NOT NULL,
