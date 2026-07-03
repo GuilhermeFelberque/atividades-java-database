@@ -17,7 +17,7 @@ Abaixo estão listados todos os sistemas desenvolvidos, com links diretos para s
 ### 🩺 2. Sistema Médico
 * **O que faz:** Controla o cadastro de pacientes (com trava de CPF único), médicos e o agendamento de consultas por especialidade.
 * **Conceitos aplicados:** Restrição de unicidade (`UNIQUE KEY`), chaves estrangeiras (`FOREIGN KEY`) e relacionamentos entre tabelas.
-* **📂 [Acessar arquivos desta atividade](./Sistema_De_Agendamento_Medico_refatorado_Enum_Interacao_Banco_De_Dados)**
+* **📂 [Acessar arquivos desta atividade](./Sistema_De_Agendamento_Medico_Refatorado_Interacao_Banco_De_Dados)**
 * 📂 [Ver Script SQL desta atividade](./SistemaMedicoscript.sql)
 
 ### 💳 3. Sistema de Conta de Usuário e Assinaturas
