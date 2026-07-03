@@ -44,6 +44,12 @@ Abaixo estão listados todos os sistemas desenvolvidos, com links diretos para s
 * **📂 [Acessar arquivos desta atividade](./Sistema_De_Passagens_Aereas_Refatorado_Intercao_Banco_De_Dados)**
 * **📄 [Ver Script SQL desta atividade](./SistemaPassagensscript.sql)**
 
+### 🏨 7. Sistema de Reserva de Hotel
+* **O que faz:** Gerencia a ocupação de um hotel, controlando o cadastro de quartos (valores de diárias e tipos) e o fluxo de hospedagem (`Check-in` e `Check-out`), vinculando os dados cadastrais do cliente ao quarto escolhido e calculando o valor total da estadia.
+* **Conceitos aplicados:** Relacionamento um-para-muitos via chave estrangeira (`FOREIGN KEY`), uso de tipos temporais (`DATETIME`) para controle de períodos de reserva, e integridade referencial entre tabelas.
+* **📂 [Acessar arquivos desta atividade](./Sistema_De_Reserva_De_Hotel_Refatorado_Interacao_Banco_De_Dados)**
+* **📄 [Ver Script SQL desta atividade](./SistemaReservaHotelscript.sql)**
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas Geral
