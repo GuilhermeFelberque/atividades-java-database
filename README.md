@@ -28,9 +28,15 @@ Abaixo estão listados todos os sistemas desenvolvidos, com links diretos para s
 
 ### 📚 4. Sistema de Biblioteca Escolar
 * **O que faz:** Controla o empréstimo de livros por alunos, acompanhando o status de disponibilidade do livro, o total de obras com o estudante e se ele possui multas pendentes.
-* **Conceitos aplicados:** Uso de chaves primárias definidas manualmente (`PRIMARY KEY`), valores padrão para novos registros (`DEFAULT 0` e `DEFAULT 1`) e uso de booleanos via tipo `TINYINT(1)`.
+* **Conceitos aplicados:** Uso de chaves primárias definidas manualmente (`PRIMARY KEY`), valores padrão para novos registros (`DEFAULT 0` e `DEFAULT 1`)`.
 * **📂 [Acessar arquivos desta atividade](./Sistema_de_Controle_de_Biblioteca_Escolar_Refatorado_Interacao_Banco_De_Dados)**
 * **📄 [Ver Script SQL desta atividade](./ControleBibliotecascript.sql)**
+
+### 🍔 5. Sistema de Delivery
+* **O que faz:** Controla o fluxo de pedidos de um aplicativo de entregas, registrando as credenciais de acesso dos usuários, o cardápio de produtos e os detalhes de fechamento de cada compra (taxas, totais e formas de pagamento).
+* **Conceitos aplicados:** Uso de chaves primárias mistas (manuais e `AUTO_INCREMENT`), tipo `DATETIME` para registro de carimbo de data/hora, e o tipo `DECIMAL(10,2)` para cálculos financeiros precisos de taxas e totais.
+* **📂 [Acessar arquivos desta atividade](./Sistema_De_Delivery_De_Restaurante_Refatorado_Interacao_Banco_De_Dados)**
+* **📄 [Ver Script SQL desta atividade](./SistemaDeliveryscript.sql)**
 
 ---
 
