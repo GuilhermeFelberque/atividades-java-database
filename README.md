@@ -12,7 +12,7 @@ Abaixo estão listados todos os sistemas desenvolvidos, com links diretos para s
 * **O que faz:** Gerencia o fluxo de entrada, permanência e saída de veículos, calculando o valor a ser pago e guardando um histórico.
 * **Conceitos aplicados:** `PRIMARY KEY`, `AUTO_INCREMENT`, chaves estrangeiras e manipulação de datas (`DATETIME`).
 * **📂 [Acessar arquivos desta atividade](./Sistema_De_Controle_De_Estacionamento_refatorado_Enum_Interacao_Banco_De_Dados)**
-* 📂 [Ver Script SQL desta atividade](./SistemaEstacionamentoscript.sql)
+* **📂 [Ver Script SQL desta atividade](./SistemaEstacionamentoscript.sql)
 
 ### 🩺 2. Sistema Médico
 * **O que faz:** Controla o cadastro de pacientes (com trava de CPF único), médicos e o agendamento de consultas por especialidade.
